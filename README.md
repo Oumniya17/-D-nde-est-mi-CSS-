@@ -14,6 +14,7 @@ The challenge:
 - We were only given the **HTML of the `<body>`** — no CSS at all.  
 - Our mission was to **rebuild the entire original design** of a login page from scratch, using only our memory, design intuition, and color picker tools.  
 - The final page had to **look just like the reference image**, keeping all structure and class names the same (no editing the HTML!).
+  
   <img width="628" height="614" alt="Untitled" src="https://github.com/user-attachments/assets/50a613be-883a-409a-846d-5635a375b282" />
 
 🧠 Tools allowed:
