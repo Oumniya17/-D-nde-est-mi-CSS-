@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #e9ebff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.card {
+  background-color: #fff;
+  width: 380px;
+  padding: 2.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.subtitle a {
+  color: #4a3aff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.subtitle a:hover {
+  text-decoration: underline;
+}
+
+
+.social-login {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 1.2rem;
+}
+
+.google-btn,
+.fb-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  border: 1.5px solid #d4d4d4;
+  background-color: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.google-btn:hover,
+.fb-btn:hover {
+  background-color: #f8f8f8;
+}
+
+.google-btn img,
+.fb-btn img {
+  width: 20px;
+  height: 20px;
+}
+
+.btn-text {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.fb-btn {
+  width: 50px;
+  padding: 0.7rem;
+  border-color: #4a3aff;
+}
+
+
+.or {
+  text-align: center;
+  color: #999;
+  margin: 1rem 0;
+  position: relative;
+}
+
+.or::before,
+.or::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background-color: #ddd;
+}
+
+.or::before {
+  left: 0;
+}
+
+.or::after {
+  right: 0;
+}
+
+.or span {
+  background-color: #fff;
+  padding: 0 0.5rem;
+  font-size: 0.9rem;
+}
+
+
+.email-login {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 1.5rem;
+}
+
+.email-login label {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.email-login input {
+  width: 100%;
+  padding: 0.8rem;
+  border-radius: 8px;
+  border: 1.5px solid #ccc;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.email-login input:focus {
+  border-color: #4a3aff;
+  box-shadow: 0 0 0 3px rgba(74, 58, 255, 0.1);
+}
+
+
+.cta-btn {
+  width: 100%;
+  background-color: #4a3aff;
+  color: white;
+  border: none;
+  padding: 0.9rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #372aff;
+}
+
+
+.forget-pass {
+  display: block;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #4a3aff;
+  text-decoration: none;
+}
+
+.forget-pass:hover {
+  text-decoration: underline;
+}
